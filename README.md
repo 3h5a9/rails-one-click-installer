@@ -6,6 +6,16 @@
 
 With this shell command line tool you can easily and completely install ***ruby on rails*** along with ***ruby*** and ***postgresql*** database.
 
+
+---
+This process is for Ubuntu or Ubuntu based linux distro.
+
+
+Tested on Elementary OS Hera, which is based on Ubuntu 18.4
+
+
+Ruby, Ruby on Rails and Postgresql Version
+
 ~~~ 
 Ruby Version - 3.0.1
 ~~~
@@ -18,15 +28,16 @@ Ruby on Rails Version - 6.1.3.2
 Postgresql Version - 12
 ~~~
 
+---
 
-Installation Process
+### Installation Process
 
-Run the bash file in the home directory
+***Run the bash file in the home directory***
 
 - Open Terminal
 - and run the following file as follows
   
-  - ~~~ 
+  ~~~ 
     ./rails_installer.sh 
     ~~~
 
