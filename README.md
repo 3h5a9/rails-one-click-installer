@@ -16,17 +16,11 @@ Tested on Elementary OS Hera, which is based on Ubuntu 18.4
 
 Ruby, Ruby on Rails and Postgresql Version
 
-~~~ 
-Ruby Version - 3.0.1
-~~~
 
-~~~
-Ruby on Rails Version - 6.1.3.2
-~~~
-
-~~~
-Postgresql Version - 12
-~~~
+| Ruby | rails    | Postgresql |
+| -----| -----    | ---------- |
+| 3.0.1| 6.1.3.2  | 12.7
+ 
 
 ---
 
@@ -57,3 +51,17 @@ Postgresql Version - 12
   if you are using bashrc please change zshrc to bashrc in that case.
 
 - Also please provide your github username and email to connect with your github account.
+
+
+
+
+Thank's to [Gorails]('https://gorails.com') for amazing rails installation guideline.
+
+Made with 💖 from 
+
+**Bangladesh** 
+  🇧🇩🇧🇩🇧🇩🇧🇩🇧🇩
+
+By **Sayed Mohammad Ehsan**
+
+💟💟💟💟💟💎🐧💎🐧💎🐧💎🐧💎💟💟💟💟💟
