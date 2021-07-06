@@ -10,8 +10,6 @@ echo 'Ruby on Rails Version - 6.1.3.2'
 echo "Let's Start 🚀"
 echo ''
 echo ''
-echo 'STEP -1'
-echo '~~~~~~~'
 echo 'The first step is to install some dependencies for Ruby and Rails.'
 echo "To make sure we have everything necessary for Webpacker support in Rails, we're first going to start by adding the Node.js and Yarn repositories to our system before installing them."
 echo ''
@@ -45,8 +43,10 @@ echo "One More Thing, I am using zshrc instead of bashrc, if you want you can ed
 cd
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
+echo 'If you are using bashrc, please replace zshrc with bashrc'
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
 
+echo 'If you are using bashrc, please replace zshrc with bashrc'
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 #exec $SHELL
@@ -79,13 +79,17 @@ echo 'rbenv users need to run rbenv rehash after installing bundler.'
 
 rbenv rehash
 
+echo ''
+
 echo 'Configuring Git'
 echo 'Replace my name and email address in the following steps with the ones you used for your Github account.'
 
+echo ''
+
 git config --global color.ui true
-git config --global user.name "ehsanatwork"
-git config --global user.email "ehsanatwork@gmail.com"
-ssh-keygen -t rsa -b 4096 -C "ehsanatwork@gmail.com"
+git config --global user.name "my name"
+git config --global user.email "myname@email.com"
+ssh-keygen -t rsa -b 4096 -C "myname@email.com"
 
 
 echo 'Successfully configure git 🔥🔥🔥 🐧🐧🐧'
@@ -144,11 +148,12 @@ sudo apt install libpq-dev
 
 echo ''
 
+# Please change user with your username 
 echo 'Create User for Postgresql'
-sudo -u postgres createuser nginit -s
+sudo -u postgres createuser username -s
 
 
-echo "Successfully add user nginit"
+echo "Successfully add user username"
 
 echo''
 
@@ -156,7 +161,7 @@ echo "Add Password"
 echo "using this postgresql command change nginit with your postgresql user '\password nginit'"
 sudo -u postgres psql
 
-echo 'Congratulations password for nginit added successfully'
+echo 'Congratulations password for username added successfully'
 
 echo ''
 echo "Thank's to gorails.com"
