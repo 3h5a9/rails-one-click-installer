@@ -50,8 +50,8 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 #exec $SHELL
-echo 'Hi'
-echo "💨💨💨💨💨💨"
+echo ""
+echo ""
 
 
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -79,7 +79,6 @@ echo 'rbenv users need to run rbenv rehash after installing bundler.'
 
 rbenv rehash
 
-
 echo 'Configuring Git'
 echo 'Replace my name and email address in the following steps with the ones you used for your Github account.'
 
@@ -90,6 +89,8 @@ ssh-keygen -t rsa -b 4096 -C "ehsanatwork@gmail.com"
 
 
 echo 'Successfully configure git 🔥🔥🔥 🐧🐧🐧'
+
+echo ''
 
 echo "The next step is to take the newly generated SSH key and add it to your Github account."
 echo "You want to copy and paste the output of the following command and paste it to github settings. "
