@@ -64,7 +64,7 @@ echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
 #exec $SHELL
 
 echo 'Installing RBENV'
-rbenv install 3.0.1 -y
+rbenv install 3.0.1
 
 echo 'Make rbenv global'
 rbenv global 3.0.1
