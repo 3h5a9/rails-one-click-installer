@@ -11,7 +11,7 @@ With this shell command line tool you can easily and completely install ***ruby 
 This process is for Ubuntu or Ubuntu based linux distro.
 
 
-Tested on Elementary OS Hera, which is based on Ubuntu 18.4
+Tested on Debian 12
 
 
 Ruby, Ruby on Rails and Postgresql Version
@@ -19,7 +19,7 @@ Ruby, Ruby on Rails and Postgresql Version
 
 | Ruby | rails    | Postgresql |
 | -----| -----    | ---------- |
-| 3.0.1| 6.1.3.2  | 12.7
+| Latest| latest  | latest
  
 
 ---
